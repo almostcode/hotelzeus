@@ -81,7 +81,7 @@ export function Home() {
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/hotel-zeus-restaurante.png"
+                    src="https://i.imgur.com/RZV1V2Z.png"
                     className="h-full w-full border-[1px] border-solid border-gray-400 rounded"
                   />
                 </CardHeader>
@@ -175,7 +175,7 @@ export function Home() {
 
           {/* tarjeta de habitaciones */}
           <div data-aos="fade-left" data-aos-duration="1500" className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-2">
-            {teamData.map(({ img, name, position, socials, texto }) => (
+            {teamData.map(({ img, name, position, }) => (
               <TeamCard
                 key={name}
                 img={img}
